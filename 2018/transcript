@@ -1,0 +1,101 @@
+# Compile of LCD_CTRL.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+vsim -gui -novopt work.test
+# vsim -gui -novopt work.test 
+# Refreshing C:/ic_contest/2018/work.test
+# Loading work.test
+# Refreshing C:/ic_contest/2018/work.LCD_CTRL
+# Loading work.LCD_CTRL
+# Refreshing C:/ic_contest/2018/work.IROM
+# Loading work.IROM
+# Refreshing C:/ic_contest/2018/work.IRAM
+# Loading work.IRAM
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(79): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+# 
+#         Region: /test
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(80): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+# 
+#         Region: /test
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(81): [TOFD] - System task or function '$fsdbDumpMDA' is not defined.
+# 
+#         Region: /test
+add wave  \
+sim:/test/l
+add wave  \
+sim:/test/LCD_CTRL/write \
+sim:/test/LCD_CTRL/up \
+sim:/test/LCD_CTRL/down \
+sim:/test/LCD_CTRL/left \
+sim:/test/LCD_CTRL/right \
+sim:/test/LCD_CTRL/max \
+sim:/test/LCD_CTRL/min \
+sim:/test/LCD_CTRL/avg \
+sim:/test/LCD_CTRL/ccwr \
+sim:/test/LCD_CTRL/cwr \
+sim:/test/LCD_CTRL/mx \
+sim:/test/LCD_CTRL/my \
+sim:/test/LCD_CTRL/clk \
+sim:/test/LCD_CTRL/reset \
+sim:/test/LCD_CTRL/cmd \
+sim:/test/LCD_CTRL/cmd_valid \
+sim:/test/LCD_CTRL/IROM_Q \
+sim:/test/LCD_CTRL/IROM_rd \
+sim:/test/LCD_CTRL/IROM_A \
+sim:/test/LCD_CTRL/IRAM_valid \
+sim:/test/LCD_CTRL/IRAM_D \
+sim:/test/LCD_CTRL/IRAM_A \
+sim:/test/LCD_CTRL/busy \
+sim:/test/LCD_CTRL/done \
+sim:/test/LCD_CTRL/buffer \
+sim:/test/LCD_CTRL/point \
+sim:/test/LCD_CTRL/valid \
+sim:/test/LCD_CTRL/state \
+sim:/test/LCD_CTRL/zero \
+sim:/test/LCD_CTRL/average \
+sim:/test/LCD_CTRL/cmp0 \
+sim:/test/LCD_CTRL/cmp1 \
+sim:/test/LCD_CTRL/cmp2 \
+sim:/test/LCD_CTRL/cmp3 \
+sim:/test/LCD_CTRL/maxValue \
+sim:/test/LCD_CTRL/minValue \
+sim:/test/LCD_CTRL/i
+run -all
+# All data have been generated successfully!
+# 
+# -------------------PASS-------------------
+# 
+# ** Note: $finish    : C:/ic_contest/2018/testfixture.v(148)
+#    Time: 1335 ns  Iteration: 0  Instance: /test
+# 1
+# Break in Module test at C:/ic_contest/2018/testfixture.v line 148
+# Compile of LCD_CTRL.v was successful.
+# Compile of testfixture.v was successful.
+# 2 compiles, 0 failed with no errors. 
+restart
+# Refreshing C:/ic_contest/2018/work.test
+# Loading work.test
+# Refreshing C:/ic_contest/2018/work.LCD_CTRL
+# Loading work.LCD_CTRL
+# Refreshing C:/ic_contest/2018/work.IROM
+# Loading work.IROM
+# Refreshing C:/ic_contest/2018/work.IRAM
+# Loading work.IRAM
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(79): [TOFD] - System task or function '$fsdbDumpfile' is not defined.
+# 
+#         Region: /test
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(80): [TOFD] - System task or function '$fsdbDumpvars' is not defined.
+# 
+#         Region: /test
+# ** Warning: (vsim-PLI-3003) C:/ic_contest/2018/testfixture.v(81): [TOFD] - System task or function '$fsdbDumpMDA' is not defined.
+# 
+#         Region: /test
+run -all
+# All data have been generated successfully!
+# 
+# -------------------PASS-------------------
+# 
+# ** Note: $finish    : C:/ic_contest/2018/testfixture.v(148)
+#    Time: 1785 ns  Iteration: 0  Instance: /test
+# 1
+# Break in Module test at C:/ic_contest/2018/testfixture.v line 148

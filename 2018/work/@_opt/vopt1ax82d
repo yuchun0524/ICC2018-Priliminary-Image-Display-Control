@@ -1,0 +1,87 @@
+m255
+K3
+13
+cModel Technology
+dC:\modeltech64_10.1c\examples
+T_opt
+V<zDHgPl9ON>]hBB8zW9Y=1
+04 4 4 work test fast 0
+=1-704d7ba4df42-5f2a31c0-3a2-2030
+o-quiet -auto_acc_if_foreign -work work
+n@_opt
+OL;O;10.1c;51
+vIRAM
+Ic<h_XBZ1@2@Ybh3MIf2>Q1
+V<@Ffj1cn60zcz7;=HAIWo0
+Z0 dC:\ic_contest\2018
+Z1 w1596523943
+Z2 8C:/ic_contest/2018/testfixture.v
+Z3 FC:/ic_contest/2018/testfixture.v
+L0 190
+Z4 OL;L;10.1c;51
+r1
+31
+Z5 !s108 1596600762.228000
+Z6 !s107 C:/ic_contest/2018/testfixture.v|
+Z7 !s90 -reportprogress|300|-work|work|-vopt|C:/ic_contest/2018/testfixture.v|
+Z8 o-work work -L mtiAvm -L mtiOvm -L mtiUvm -L mtiUPF
+n@i@r@a@m
+!i10b 1
+!s100 `cSWV3><mV`Gzm7aZJa_P0
+!s85 0
+vIROM
+I4j_Ef2KHY9EL:3^=dTP5o2
+VTm6D@FeKBTlED]LWI0ZaV0
+Z9 dC:\ic_contest\2018
+R1
+R2
+R3
+L0 165
+R4
+r1
+31
+R5
+R6
+R7
+R8
+n@i@r@o@m
+!i10b 1
+!s100 d2[e<R<bK:5Af`YaLzcjc3
+!s85 0
+vLCD_CTRL
+IR@@ZP8ezVa4iB5:8nohai1
+VB`ZX`iM1Mz5]bnQ]5kO5Z3
+R9
+w1596523791
+8C:/ic_contest/2018/LCD_CTRL.v
+FC:/ic_contest/2018/LCD_CTRL.v
+L0 1
+R4
+r1
+31
+R8
+n@l@c@d_@c@t@r@l
+!s100 ]Dg7=;:]V9ieOKii;@d3g0
+!s108 1596600762.009000
+!s107 C:/ic_contest/2018/LCD_CTRL.v|
+!s90 -reportprogress|300|-work|work|-vopt|C:/ic_contest/2018/LCD_CTRL.v|
+!i10b 1
+!s85 0
+vtest
+IXUG6>XUKTUW118?YaT20_3
+ViYi1S7iTl]5NUC4OOjAFG3
+R9
+R1
+R2
+R3
+L0 26
+R4
+r1
+31
+R5
+R6
+R7
+R8
+!i10b 1
+!s100 f0UkH_QMAh?<YV8;zH`Bj3
+!s85 0
